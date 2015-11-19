@@ -77,6 +77,7 @@
   mt = mergetool
   r = rebase
   re = remote
+  rr = remote rm
   rea = remote -v
   #rebases & squash
   rb = rebase
@@ -84,6 +85,7 @@
   rbc = rebase --continue
   rba = rebase --abort
   rbs = rebase --skip
+  rf = reflog
   #squashes
   sq = "!f() { git rebase -i HEAD~$1; }; f"
   # tags

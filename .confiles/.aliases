@@ -32,12 +32,6 @@
 	alias labs='~/Projects/labs && l'
 	alias cssf='~/Projects/static/cssFW && l'
 
-# VENTURES
-	alias static='~/Projects/static && l' # THEME MARKET STUFF
-	alias wps='~/Projects/wordpress && l'
-	alias wpt='~/Projects/wordpress/themes && l' # THEME MARKET STUFF
-	alias wpp='~/Projects/wordpress/plugins && l'
-
 # RDM BUILDs
 	alias myz='~/Projects/shell/omz/oh-my-zsh-rdm-theme && l && subl .'  # OPEN REPO IN SUBLIME TEXT
 	alias rdms='~/Projects/rainydaymedia/RDMShell && l'
@@ -50,24 +44,19 @@ export EDITOR='subl -n' # EDIT WITH SUBLIME TEXT WITH NEW WINDOW
 # -------------------------------------------------------------------
 # Tmux
 # -------------------------------------------------------------------
-alias tkill='tmux kill-session -t'
-alias imux='tmux -CC attach -t'
+	alias tkill='tmux kill-session -t'
+	alias imux='tmux -CC attach -t'
 
 # -------------------------------------------------------------------
 # HomeBrew
 # -------------------------------------------------------------------
-
 	alias brews='brew list -1'
-	alias bubu="brew update && brew upgrade && brew cleanup"
 
 # -------------------------------------------------------------------
-# Git - gMost used in my current worflow
+# Git and Hub additions
 # -------------------------------------------------------------------
- 	alias g='git'
+ 	alias git='hub'
 	alias gcuts='git config --get-regexp alias'
-	alias grr='git remote rm'
-	alias grv='git remote -v' # List the current remotes
-	alias grf='git reflog'
 	alias gv='git log --pretty=format:'%s' | cut -d ' ' -f 1 | sort | uniq -c | sort -nr'
 
  git config --global alias.logs 'log --color --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
@@ -78,6 +67,13 @@ alias imux='tmux -CC attach -t'
 
 # gu shows a list of all developers and the number of commits they've made
 	alias gu="git shortlog | grep -E '^[^ ]'"
+
+# hub tool
+ alias git='hub'
+
+ if hash hub 2>/dev/null; then
+   alias git='hub'
+ fi
 
 # -------------------------------------------------------------------
 # Capistrano
@@ -188,13 +184,6 @@ alias fn='find . -iname $1'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 # alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
-
-# hub tool
-# alias git='hub'
-
-# if hash hub 2>/dev/null; then
-#   alias git='hub'
-# fi
 
 # ruby
 alias be='bundle exec'
