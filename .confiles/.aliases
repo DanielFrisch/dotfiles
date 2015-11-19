@@ -81,14 +81,12 @@ export EDITOR='subl -n' # EDIT WITH SUBLIME TEXT WITH NEW WINDOW
 	alias capd='cap deploy'
 
 # -------------------------------------------------------------------
-# Laravel
+# PHP - Laravel - WordPress
 # -------------------------------------------------------------------
 # alias laravel='composer create-project laravel/laravel' # Not sure I need this that often -- commented out for reference
 
-# -------------------------------------------------------------------
-# PHP
-# -------------------------------------------------------------------
 	alias phps='php -S 0.0.0.0:8888' #  phps public/index.php to start the built-in web server
+	alias wpkd='wpkit deploy'
 
 # -------------------------------------------------------------------
 # Ruby
