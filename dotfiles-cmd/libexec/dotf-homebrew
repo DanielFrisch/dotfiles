@@ -72,10 +72,12 @@ system('brew install phpmyadmin')
 system('brew install dnsmasq')
 
 puts "Installing git"
-puts "Installing git-flow-avh"
-puts "Install tig"
 system('brew install git')
+puts "Installing git-flow-avh"
 system('brew install git-flow-avh')
+puts "Install Hub"
+system('brew install hub')
+puts "Install tig"
 system('brew install tig')
 system('brew install fontconfig')
 
