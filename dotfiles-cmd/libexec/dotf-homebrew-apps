@@ -41,14 +41,11 @@ end
 
 puts "Installing Cloud Storage Apps"
 system('brew cask install dropbox')
-#system('brew cask install copy')
 system('brew cask install google-drive')
 
 puts "Installing Browsers"
 system('brew cask install google-chrome')
-#system('brew cask install google-hangouts')
 system('brew cask install firefox')
-system('brew cask install opera')
 
 puts "Installing Productivty Apps"
 system('brew cask install alfred')
@@ -56,7 +53,6 @@ system('brew cask link alfred')
 system('brew cask install typinator')
 system('brew cask install onepassword')
 system('brew cask install dash')
-system('brew cask install fantastical')
 system('brew cask install todoist')
 system('brew cask install divvy')
 system('brew cask install cloudytabs')
@@ -65,8 +61,6 @@ system('brew cask install slack')
 system('brew cask install macaw')
 
 puts "Installing Utilities"
-#system('brew cask install keka') # using the OS X defautl again
-#system('brew cask install carbon-copy-cloner')
 system('brew cask install cleanmymac')
 system('brew cask install macpaw-gemini')
 system('brew cask install colorpicker-hex')
@@ -91,10 +85,10 @@ puts "Installing Development Tools"
 system('brew cask install iterm2')
 system('brew cask install sublime-text')
 system('brew cask install transmit')
-system('brew cask install coda')
+system('brew cask install cyberduck')
 system('brew cask install codekit')
 system('brew cask install github')
-system('brew cask install mou')
+system('brew cask install macdown')
 system('brew cask install sequel-pro')
 system('brew cask install kaleidoscope')
 system('brew cask install mindnode-pro')
