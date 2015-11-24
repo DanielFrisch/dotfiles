@@ -76,9 +76,10 @@
   m = merge
   mt = mergetool
   r = rebase
-  re = remote
+  rem = remote
   rr = remote rm
-  rea = remote -v
+  rems = remote -v
+  rema = remote add
   #rebases & squash
   rb = rebase
   rbi = rebase -i
