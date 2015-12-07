@@ -22,10 +22,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "MacDaddy"
-sudo scutil --set HostName "MacDaddy"
-sudo scutil --set LocalHostName "MacDaddy"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "MacDaddy"
+sudo scutil --set ComputerName "DustyMac"
+sudo scutil --set HostName "DustyMac"
+sudo scutil --set LocalHostName "DustyMac"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "DustyMac"
 
 # Store Identities in Keychain
 sudo ssh-add -K
