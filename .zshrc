@@ -12,7 +12,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # plugins=(brew bundle colorize fasd gem node npm vagrant battery)
 
-plugins=(battery sublime colorize fasd z osx ssh-agent) # FOR JUST A LITTLE WHILE
+plugins=(sublime colorize fasd z osx ssh-agent) # FOR JUST A LITTLE WHILE
 
 # register homebrew completions folder
 

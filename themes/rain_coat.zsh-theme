@@ -102,6 +102,6 @@ local ret_status="%(?:%{$fg_bold[green]%}» :%{$fg_bold[red]%}» %s)"
 PROMPT='%{$fg[magenta]%}$(current_pwd) $(git_prompt_string)%{$reset_color%}
 ${ret_status} '
 
-RPROMPT='%{$fg[white]%}$(battery_pct_prompt)%{$reset_color%}' # Add the battery status to right-side of prompt -- add the oh-my-zsh battery plugin to your zshrc
+# RPROMPT='%{$fg[white]%}$(battery_pct_prompt)%{$reset_color%}' # Add the battery status to right-side of prompt -- add the oh-my-zsh battery plugin to your zshrc
 
 export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color [(y)es (n)o (a)bort (e)dit]? "
