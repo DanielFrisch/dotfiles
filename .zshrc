@@ -33,9 +33,3 @@ zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 # added by travis gem
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
-
-# The next line updates PATH for the Google Cloud SDK.
-source '~/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables shell command completion for gcloud.
-source `~/google-cloud-sdk/completion.zsh.inc'

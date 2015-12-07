@@ -32,7 +32,7 @@
 
 [core]
   excludesfile = ~/.gitignore_global
-  editor = subl -w
+  editor = subl
   mergeoptions = --no-ff --no-commit
   autocrlf = input
 
